@@ -1,0 +1,154 @@
+{
+  "subjects": [
+    {
+      "name": "Toán 12",
+      "chapters": [
+        {
+          "name": "Chương 1: Ứng dụng đạo hàm",
+          "questions": [
+            {
+              "type": "mcq",
+              "q": "Hàm số y = x^3 - 3x + 1 đồng biến trên khoảng nào?",
+              "options": ["(-1; 1)", "(-∞; -1) và (1; +∞)", "(-∞; +∞)", "(0; 2)"],
+              "answer": 1,
+              "explain": "y' = 3x^2 - 3 = 0 tại x = ±1. Xét dấu y' cho thấy hàm số đồng biến trên (-∞; -1) và (1; +∞)."
+            },
+            {
+              "type": "mcq",
+              "q": "Giá trị cực đại của hàm số y = -x^2 + 4x - 1 là bao nhiêu?",
+              "options": ["1", "2", "3", "4"],
+              "answer": 2,
+              "explain": "y' = -2x + 4 = 0 tại x = 2. Thay vào hàm số: y(2) = -4 + 8 - 1 = 3."
+            },
+            {
+              "type": "fill_blank",
+              "q": "Đạo hàm của hàm số y = ln(x) là ___ (viết dạng 1/x).",
+              "answer": "1/x",
+              "explain": "Công thức đạo hàm cơ bản: (ln x)' = 1/x với x > 0."
+            },
+            {
+              "type": "true_false",
+              "q": "Hàm số bậc ba luôn có ít nhất một điểm cực trị.",
+              "answer": false,
+              "explain": "Sai. Hàm bậc ba có thể không có cực trị nếu y' = 3ax^2 + 2bx + c vô nghiệm hoặc có nghiệm kép, ví dụ y = x^3."
+            },
+            {
+              "type": "matching",
+              "q": "Ghép mỗi hàm số ở Cột A với đạo hàm tương ứng ở Cột B.",
+              "pairs": [
+                { "left": "y = x^2", "right": "y' = 2x" },
+                { "left": "y = sin(x)", "right": "y' = cos(x)" },
+                { "left": "y = e^x", "right": "y' = e^x" }
+              ],
+              "answer": { "0": 0, "1": 1, "2": 2 },
+              "explain": "Áp dụng các công thức đạo hàm cơ bản đã học."
+            }
+          ]
+        },
+        {
+          "name": "Chương 2: Mũ và Logarit",
+          "questions": [
+            {
+              "type": "mcq",
+              "q": "Giải phương trình 2^x = 8. Giá trị của x là?",
+              "options": ["2", "3", "4", "8"],
+              "answer": 1,
+              "explain": "8 = 2^3, nên x = 3."
+            },
+            {
+              "type": "mcq",
+              "q": "log_2(16) bằng bao nhiêu?",
+              "options": ["2", "3", "4", "8"],
+              "answer": 2,
+              "explain": "16 = 2^4, nên log_2(16) = 4."
+            },
+            {
+              "type": "fill_blank",
+              "q": "Công thức đổi cơ số: log_a(b) = log_c(b) / ___ (viết dạng log_c(a)).",
+              "answer": "log_c(a)",
+              "explain": "Công thức đổi cơ số logarit: log_a(b) = log_c(b) / log_c(a)."
+            },
+            {
+              "type": "true_false",
+              "q": "Hàm số y = a^x (với 0 < a < 1) là hàm nghịch biến trên R.",
+              "answer": true,
+              "explain": "Đúng. Khi 0 < a < 1, hàm số mũ y = a^x nghịch biến trên toàn bộ tập số thực."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vật Lý 12",
+      "chapters": [
+        {
+          "name": "Chương 1: Dao động cơ",
+          "questions": [
+            {
+              "type": "mcq",
+              "q": "Chu kỳ dao động điều hòa của con lắc lò xo phụ thuộc vào yếu tố nào?",
+              "options": ["Biên độ dao động", "Khối lượng vật và độ cứng lò xo", "Pha ban đầu", "Gia tốc trọng trường"],
+              "answer": 1,
+              "explain": "Chu kỳ T = 2π√(m/k), chỉ phụ thuộc khối lượng m và độ cứng lò xo k, không phụ thuộc biên độ."
+            },
+            {
+              "type": "mcq",
+              "q": "Trong dao động điều hòa, vận tốc đạt giá trị cực đại tại vị trí nào?",
+              "options": ["Vị trí biên", "Vị trí cân bằng", "Giữa biên và cân bằng", "Không xác định"],
+              "answer": 1,
+              "explain": "Tại vị trí cân bằng, li độ x = 0 nên vận tốc đạt giá trị cực đại v_max = ωA."
+            },
+            {
+              "type": "fill_blank",
+              "q": "Công thức tính tần số góc của con lắc đơn là ω = căn(g/___) (điền đại lượng, viết là l).",
+              "answer": "l",
+              "explain": "Con lắc đơn có ω = √(g/l), với l là chiều dài dây treo."
+            },
+            {
+              "type": "true_false",
+              "q": "Cơ năng của con lắc lò xo dao động điều hòa (bỏ qua ma sát) được bảo toàn theo thời gian.",
+              "answer": true,
+              "explain": "Đúng. Khi bỏ qua ma sát, cơ năng W = 1/2 k A^2 không đổi trong suốt quá trình dao động."
+            },
+            {
+              "type": "matching",
+              "q": "Ghép đại lượng ở Cột A với công thức tương ứng ở Cột B.",
+              "pairs": [
+                { "left": "Chu kỳ con lắc lò xo", "right": "T = 2π√(m/k)" },
+                { "left": "Tần số góc", "right": "ω = 2π/T" },
+                { "left": "Cơ năng", "right": "W = 1/2 k A^2" }
+              ],
+              "answer": { "0": 0, "1": 1, "2": 2 },
+              "explain": "Các công thức cơ bản trong chương dao động cơ."
+            }
+          ]
+        },
+        {
+          "name": "Chương 2: Sóng cơ",
+          "questions": [
+            {
+              "type": "mcq",
+              "q": "Sóng cơ không truyền được trong môi trường nào?",
+              "options": ["Chất rắn", "Chất lỏng", "Chất khí", "Chân không"],
+              "answer": 3,
+              "explain": "Sóng cơ cần môi trường vật chất để truyền đi, do đó không truyền được trong chân không."
+            },
+            {
+              "type": "mcq",
+              "q": "Bước sóng λ liên hệ với vận tốc truyền sóng v và chu kỳ T theo công thức nào?",
+              "options": ["λ = v/T", "λ = vT", "λ = v + T", "λ = T/v"],
+              "answer": 1,
+              "explain": "Công thức liên hệ: λ = v.T (bước sóng bằng vận tốc nhân chu kỳ)."
+            },
+            {
+              "type": "true_false",
+              "q": "Hai điểm dao động cùng pha trên phương truyền sóng cách nhau một số nguyên lần bước sóng.",
+              "answer": true,
+              "explain": "Đúng. Khoảng cách giữa hai điểm cùng pha là d = kλ, với k là số nguyên."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
